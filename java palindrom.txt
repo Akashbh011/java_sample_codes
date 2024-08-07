@@ -1,0 +1,19 @@
+Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        StringBuilder sb =new StringBuilder(A);
+        StringBuilder sb1 =new StringBuilder(A);
+        /* Enter your code here. Print output to STDOUT. */
+        if(A.length()<=50){
+            
+           
+        for(int i=0;i<=(sb.length()/2);i++){
+             int f =i;
+             int b=sb.length()-1-i;
+             
+             char front =sb.charAt(f);
+             char back = sb.charAt(b);
+             
+             sb.setCharAt(f,back);
+             sb.setCharAt(b,front);
+             
+        }

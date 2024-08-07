@@ -1,0 +1,44 @@
+*******************************************************************************/
+import java.util.Scanner;
+
+
+
+
+
+public class Main
+{
+    
+     static void fiibonacci(int k){
+		    
+		   int first=0;
+		   int sec=1;
+		   int third=0;
+		   int counter=0;
+		   
+		   while(counter<k){
+		       
+		       
+		       System.out.println(first);
+		       
+		       third =first+sec;
+		       first=sec;
+		       sec=third;
+		       counter++;
+		       
+		       
+		       
+		   }}
+    
+    
+    
+	public static void main(String[] args) {
+		//System.out.println("Hello World");
+		
+		
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+	
+		fiibonacci(a);
+		
+	}
+}

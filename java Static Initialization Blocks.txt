@@ -1,0 +1,18 @@
+static
+{
+    Scanner sc = new Scanner(System.in);
+     B = sc.nextInt();
+     H = sc.nextInt();
+    if(B>0 && H>0)
+    {
+        flag = true;
+    }
+    else
+    {
+        System.out.println("java.lang.Exception: Breadth and height must be positive");
+    }
+}
+
+
+
+BEFORE MAIN METHOD IN A CLASS WE CAN USE STATIC BLOCK OR STATIC METHODS AND VARIABLES TO ACCESS THEM INTO THE MAIN METHOD FROM OUTSIDE OF MAIN METHOD
